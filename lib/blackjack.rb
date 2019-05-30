@@ -32,7 +32,7 @@ def initial_round
   # code #initial_round here
   total = 0
   2.times do
-    
+    total += deal_card
   end
 end
 
