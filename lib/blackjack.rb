@@ -43,6 +43,7 @@ def hit?
   # code hit? here
   prompt_user
   answer = get_user_input
+  if answer === 's'
 end
 
 def invalid_command
