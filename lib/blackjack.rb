@@ -67,7 +67,7 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
+  current = initial_round
   hit?(current_num)
   display_card_total
   
