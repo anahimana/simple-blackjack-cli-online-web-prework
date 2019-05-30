@@ -69,7 +69,7 @@ def runner
   welcome
   current_num = initial_round
   while current_num < 21
-end
+  end
   hit?(current_num)
   display_card_total
   
