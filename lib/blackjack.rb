@@ -40,11 +40,11 @@ def initial_round
 
 end
 
-def hit?(number)
+def hit?(current_num)
   # code hit? here
   prompt_user
   input = get_user_input
-  total = number
+  total = current_num
   # binding.pry
   if input == 'h'
     total += deal_card
