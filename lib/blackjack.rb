@@ -44,7 +44,7 @@ def hit?(number)
   # code hit? here
   prompt_user
   input = get_user_input
-  binding.pry
+  # binding.pry
   if input == 'h'
     deal_card
   end
