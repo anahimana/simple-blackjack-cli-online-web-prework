@@ -71,7 +71,7 @@ def runner
   while cards_total < 21
     cards_total += hit?(cards_total)
   end
-  end_game if cards_total
+  end_game if cards_total == 21
   
 end
     
