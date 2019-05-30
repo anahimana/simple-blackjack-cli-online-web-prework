@@ -68,7 +68,7 @@ def runner
   # code runner here
   welcome
   card_total = initial_round
-  hits?(card_total)
+  hit?(card_total)
   binding.pry
 end
     
