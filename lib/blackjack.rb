@@ -68,6 +68,6 @@ def runner
   # code runner here
   welcome
   initial_round
-  hit?(current_nu)
+  hit?(current_num)
 end
     
