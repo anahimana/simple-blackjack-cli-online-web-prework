@@ -69,5 +69,6 @@ def runner
   welcome
   initial_round
   hit?(current_num)
+  
 end
     
