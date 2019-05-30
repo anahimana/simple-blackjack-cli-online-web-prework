@@ -46,7 +46,7 @@ def hit?(number)
   input = get_user_input
   # binding.pry
   if input == 'h'
-    total = deal_card
+    total += deal_card
   end
   total
 end
