@@ -43,7 +43,7 @@ def hit?(number)
   # code hit? here
   prompt_user
   answer = get_user_input
-  if answer === 'h'
+  if answer == 'h'
     deal_card
   end
 end
