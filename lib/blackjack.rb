@@ -68,7 +68,7 @@ def runner
   # code runner here
   welcome
   cards_total = initial_round
-  while current_num < 21
+  while cards_total < 21
     current_num += hit?(current_num)
   end
   display_card_total
