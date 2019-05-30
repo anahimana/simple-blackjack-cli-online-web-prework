@@ -39,7 +39,7 @@ def initial_round
 
 end
 
-def hit?
+def hit?(number)
   # code hit? here
   prompt_user
   answer = get_user_input
