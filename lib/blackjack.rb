@@ -44,6 +44,11 @@ def hit?(number)
   # code hit? here
   prompt_user
   input = get_user_input
+  # binding.pry
+  if input == 'h'
+    total = deal_card
+  end
+  total
 end
 
 def invalid_command
