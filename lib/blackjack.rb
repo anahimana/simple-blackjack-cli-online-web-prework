@@ -48,7 +48,7 @@ def hit?(current_num)
   # binding.pry
   if input == 'h'
     total += deal_card
-  elif input != 'h' || input != 's'
+  elif input != 'h' && input != 's'
     invalid_command
   end
   total
